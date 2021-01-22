@@ -10,7 +10,7 @@ request_count_per_client=$5
 # removes the logs file
 rm -f client.log
 # kills previos clients
-sudo killall -r client.sh
+#sudo killall -r client.sh
 
 
 for (( i=1; i<=$number_of_clients; i++ ))

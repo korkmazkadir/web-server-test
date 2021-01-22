@@ -7,7 +7,7 @@ request_count=$4
 
 for (( i=1; i<=$request_count; i++ ))
 do 
-    sleep_time=$(( ( RANDOM % 1 )  + 0 ))
+    sleep_time=$(( ( RANDOM % 10 )  + 0 ))
     port_number=$(( ( RANDOM % number_of_servers )  + 0 ))
     port_number=$(( port_number + base_port_number ))
 

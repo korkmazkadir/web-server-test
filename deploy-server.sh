@@ -40,7 +40,7 @@ sudo cgdelete -r net_cls:/
 
 #Defines network interface to apply tc rules
 #nic="eno1"
-nic="eno1"
+nic="lo"
 
 #Delete previous tc rules
 sudo tc qdisc del dev $nic root
